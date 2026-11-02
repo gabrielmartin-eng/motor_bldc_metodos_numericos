@@ -2,13 +2,13 @@
 **Banco de Pruebas basado en Arduino Nano**
 
 ## 👥 Integrantes
-- Martin Cravero, Gabriel
-- Estefany Paima
-- Tu Nombre (Documentación y Métodos Numéricos)
+- Antezana Sullcaray Yaison 24190126
+- Martin Cravero, Gabriel 24190059
+- Paima Adrian Leidy Stephany 24190064
 
 ---
 
-## 📌 Descripción del Proyecto
+
 ## 📌 Descripción del Proyecto
 El sistema consiste en un banco de caracterización electromecánica experimental para un motor Brushless DC (BLDC) trifásico gobernado por un ESC de 40A. 
 
