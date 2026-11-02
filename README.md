@@ -2,15 +2,22 @@
 **Banco de Pruebas basado en Arduino Nano**
 
 ## 👥 Integrantes
-- Nombre del integrante 1
-- Nombre del integrante 2
+- Martin Cravero, Gabriel
+- Estefany Paima
 - Tu Nombre (Documentación y Métodos Numéricos)
 
 ---
 
 ## 📌 Descripción del Proyecto
-Este repositorio contiene el desarrollo del banco de pruebas para la caracterización de un motor BLDC (Brushless DC) utilizando un Arduino Nano, así como la implementación de métodos numéricos para el modelamiento de sus curvas de rendimiento.
+## 📌 Descripción del Proyecto
+El sistema consiste en un banco de caracterización electromecánica experimental para un motor Brushless DC (BLDC) trifásico gobernado por un ESC de 40A. 
 
+La adquisición de datos en tiempo real se ejecuta mediante un microcontrolador (Arduino Nano / ESP32) vinculado a:
+- **Módulo INA219 (I2C):** Medición de tensión y corriente DC de entrada.
+- **Sonda DS18B20:** Monitoreo térmico sumergible del motor.
+- **Sensor Hall 3144E:** Lectura de pulsos mediante interrupción externa para el cálculo de velocidad angular (RPM).
+
+Los datos recolectados se procesan mediante métodos numéricos para el modelamiento de curvas de rendimiento, ajuste de parámetros y análisis electromecánico.
 ---
 
 ## 🧮 Métodos Numéricos Aplicados
